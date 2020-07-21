@@ -1,4 +1,4 @@
-# YelpCamp
+# YelpCamp udemy course by colt steele The Web Developer Bootcamp
 
 * Add Landing Page
 * Add Campgrounds Page that lists all campgrounds
@@ -19,34 +19,34 @@
 ]
 ```
 
-# Layout and Basic Styling
+## Layout and Basic Styling
 
 * Create our header and footer partials
 * Add in Bootstrap
 
-# Create New Campground
+## Create New Campground
 
 * Setup new campground POST route
 * Add in body Parser
 * Setup route to show form
 * Add basic unstyloed form
 
-# Style the campgrounds page
+## Style the campgrounds page
 
 * Add a better heder/title
 * Make campgrounds display in a grid
 
-# Style Navbar and Form
+## Style Navbar and Form
 
 * Add navbar to all templates
 * Style the new campground form
 
-# Add Mongoose
+## Add Mongoose
 * Install and configure Mongoose
 * Setup campground model
 * Use campground model inside of our routes
 
-# Show Page
+## Show Page
 * Review the RESTful routes we've seen so far
 * Add description to our campground model
 * Show db.collection.drop()
@@ -62,23 +62,23 @@ CREATE      /dogs       POST    Add new dog to DB
 SHOW        /dogs/:id   GET     Shows info about one dog
 
 
-# Reafactor Mongoose Code
+## Reafactor Mongoose Code
 * Create a models directory
 * Use module.exports
 * Require everything correctly
 
-# Add seeds File
+## Add seeds File
 
-# Add the Comment model!
+## Add the Comment model!
 * Make our errors go away!
 * Display comments on campground show page
 
-# Comment New/Create
+## Comment New/Create
 * Discuss nested routes
 * Add the comment new and create routes
 * Add the new comment form
 
-RESTFUL ROUTES
+### RESTFUL ROUTES
 
 name        url         verb    desc.
 ============================================================
@@ -97,20 +97,20 @@ SHOW        /campgrounds/:id
 NEW         /campgrounds/:id/comments/new   GET
 CREATE      /campgrounds/:id/comments       POST
 
-# Style Show Page
+## Style Show Page
 * Add sidebar to show page
 * Dispaly comments nicely
 
-# Add User Model
+## Add User Model
 * Install all packages needed for Auth
 * Define User model
 
-# Aut Pt. 2 - Register
+## Aut Pt. 2 - Register
 * Configure Pass[prt
 * Add register routes
 * Add register template
 
-# Auth Pt. 3 - Login
+## Auth Pt. 3 - Login
 * Add login routes
 * Add login template
 
@@ -134,36 +134,36 @@ CREATE      /campgrounds/:id/comments       POST
 * Prevent an unauthenticated user from creating a campground
 * Save username+id to newly created campground
 
-# Editing Campground
+## Editing Campground
 * Add Method-Override
 * Add Edit Route for Campgrounds
 * Add Link to Edit Page
 * Add Update Route
 
-# Deleting Campgrounds
+## Deleting Campgrounds
 * Add Destroy Route
 * Add Delete button
 
-# Authorization
+## Authorization
 * User can only edit his/her campgrounds
 * User can only delete his/her campgrounds
 * Hide/Show edit and delete buttons
 
-# Editing Comments
+## Editing Comments
 * Add Edit route for comments
 * Add Edit button
 * Add Update route
 
-# Deleting Comments
+## Deleting Comments
 * Add Destroy route
 * Add Delete button
 
-# Authorization Part 2: Comments
+## Authorization Part 2: Comments
 * User can only edit his/her comments
 * User can only delete his/her comments
 * Hide/Show edit and delete buttons
 * Refactor Middleware
 
-# Adding in Flash!
+## Adding in Flash!
 * Install and configure connect-flash
 * Add bootstrap alerts to header
