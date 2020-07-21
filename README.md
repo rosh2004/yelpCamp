@@ -54,7 +54,7 @@
 
 RESTFUL ROUTES
 
-name |       url|         verb|    desc|
+|name |       url|         verb|    desc|
 |----|----------|-------------|--------|
 |INDEX|    /dogs |      GET    | Display a list of all dogs|   
 |NEW  |       /dogs/new|   GET  |   Display form to make a new dog|
@@ -80,22 +80,22 @@ name |       url|         verb|    desc|
 
 ### RESTFUL ROUTES
 
-name        url         verb    desc.
-============================================================
-INDEX       /dogs       GET     Display a list of all dogs   
-NEW         /dogs/new   GET     Display form to make a new dog
-CREATE      /dogs       POST    Add new dog to DB
-SHOW        /dogs/:id   GET     Shows info about one dog
+|name   |     url     |    verb  |  desc.|
+|-------|--------------|--------|----------|
+|INDEX     |  /dogs   |    GET    | Display a list of all dogs   |
+|NEW      |   /dogs/new |  GET |    Display form to make a new dog|
+|CREATE    |  /dogs     |  POST  |  Add new dog to DB|
+|SHOW     |   /dogs/:id  | GET    | Shows info about one dog|
+||
+|INDEX     |  /campgrounds|
+|NEW       |  /campgrounds/new|
+|CREATE      |/campgrounds|
+|SHOW       | /campgrounds/:id|
 
-INDEX       /campgrounds
-NEW         /campgrounds/new
-CREATE      /campgrounds
-SHOW        /campgrounds/:id
+### COMMENTS - NESTED ROUTES
 
-//COMMENTS - NESTED ROUTES
-
-NEW         /campgrounds/:id/comments/new   GET
-CREATE      /campgrounds/:id/comments       POST
+|NEW       |  /campgrounds/:id/comments/new  | GET|
+|CREATE     | /campgrounds/:id/comments       |POST|
 
 ## Style Show Page
 * Add sidebar to show page
